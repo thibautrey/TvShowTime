@@ -1,0 +1,855 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "Thibaut Rey",
+    "longName": "TvShowTime",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/tvshowtime.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/wow-color.png",
+                "name": "IMAGES_WOW_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/soso-color.png",
+                "name": "IMAGES_SOSO_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/sad-color.png",
+                "name": "IMAGES_SAD_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/good-color.png",
+                "name": "IMAGES_GOOD_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/fun-color.png",
+                "name": "IMAGES_FUN_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/bad-color.png",
+                "name": "IMAGES_BAD_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/badjudge-color.png",
+                "name": "IMAGES_BADJUDGE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/badjudge-color-square.png",
+                "name": "IMAGES_BADJUDGE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/badjudge.png",
+                "name": "IMAGES_BADJUDGE_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/ascension-color.png",
+                "name": "IMAGES_ASCENSION_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/ascension-color-square.png",
+                "name": "IMAGES_ASCENSION_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/ascension.png",
+                "name": "IMAGES_ASCENSION_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/alloallo-color.png",
+                "name": "IMAGES_ALLOALLO_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/alloallo-color-square.png",
+                "name": "IMAGES_ALLOALLO_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/alloallo.png",
+                "name": "IMAGES_ALLOALLO_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/thebigbangtheory-color.png",
+                "name": "IMAGES_THEBIGBANGTHEORY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/thebigbangtheory-color-square.png",
+                "name": "IMAGES_THEBIGBANGTHEORY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/thebigbangtheory.png",
+                "name": "IMAGES_THEBIGBANGTHEORY_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/personofinterest-color.png",
+                "name": "IMAGES_PERSONOFINTEREST_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/personofinterest-color-square.png",
+                "name": "IMAGES_PERSONOFINTEREST_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/personofinterest.png",
+                "name": "IMAGES_PERSONOFINTEREST_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/howtogetawaywithmurder-color.png",
+                "name": "IMAGES_HOWTOGETAWAYWITHMURDER_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/howtogetawaywithmurder-color-square.png",
+                "name": "IMAGES_HOWTOGETAWAYWITHMURDER_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/howtogetawaywithmurder.jpg",
+                "name": "IMAGES_HOWTOGETAWAYWITHMURDER_JPG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/underthedome-color.png",
+                "name": "IMAGES_UNDERTHEDOME_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/underthedome-color-square.png",
+                "name": "IMAGES_UNDERTHEDOME_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/underthedome.png",
+                "name": "IMAGES_UNDERTHEDOME_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/truedetective-color.png",
+                "name": "IMAGES_TRUEDETECTIVE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/truedetective-color-square.png",
+                "name": "IMAGES_TRUEDETECTIVE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/truedetective.png",
+                "name": "IMAGES_TRUEDETECTIVE_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/haltandcatchfire-color.png",
+                "name": "IMAGES_HALTANDCATCHFIRE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/haltandcatchfire-color-square.png",
+                "name": "IMAGES_HALTANDCATCHFIRE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/haltandcatchfire.png",
+                "name": "IMAGES_HALTANDCATCHFIRE_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/scandal-color.png",
+                "name": "IMAGES_SCANDAL_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/scandal-color-square.png",
+                "name": "IMAGES_SCANDAL_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/scandal.png",
+                "name": "IMAGES_SCANDAL_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/lastweektonight-color.png",
+                "name": "IMAGES_LASTWEEKTONIGHT_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/lastweektonight-color-square.png",
+                "name": "IMAGES_LASTWEEKTONIGHT_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/lastweektonight.png",
+                "name": "IMAGES_LASTWEEKTONIGHT_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/siliconvalley-color.png",
+                "name": "IMAGES_SILICONVALLEY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/siliconvalley-color-square.png",
+                "name": "IMAGES_SILICONVALLEY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/siliconvalley.png",
+                "name": "IMAGES_SILICONVALLEY_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/gameofthrones-color.png",
+                "name": "IMAGES_GAMEOFTHRONES_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/gameofthrones-color-square.png",
+                "name": "IMAGES_GAMEOFTHRONES_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/gameofthrones.png",
+                "name": "IMAGES_GAMEOFTHRONES_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/familyguy-color.png",
+                "name": "IMAGES_FAMILYGUY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/familyguy-color-square.png",
+                "name": "IMAGES_FAMILYGUY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/familyguy.png",
+                "name": "IMAGES_FAMILYGUY_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/fallingskies-color.png",
+                "name": "IMAGES_FALLINGSKIES_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/fallingskies-color-square.png",
+                "name": "IMAGES_FALLINGSKIES_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/fallingskies.png",
+                "name": "IMAGES_FALLINGSKIES_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/extant-color.png",
+                "name": "IMAGES_EXTANT_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/extant-color-square.png",
+                "name": "IMAGES_EXTANT_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/extant.png",
+                "name": "IMAGES_EXTANT_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/doctorwho-color.png",
+                "name": "IMAGES_DOCTORWHO_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/doctorwho-color-square.png",
+                "name": "IMAGES_DOCTORWHO_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/doctorwho.png",
+                "name": "IMAGES_DOCTORWHO_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/csi-color.png",
+                "name": "IMAGES_CSI_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/csi-color-square.png",
+                "name": "IMAGES_CSI_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/csi.png",
+                "name": "IMAGES_CSI_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/community-color.png",
+                "name": "IMAGES_COMMUNITY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/community-color-square.png",
+                "name": "IMAGES_COMMUNITY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/community.png",
+                "name": "IMAGES_COMMUNITY_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/cedricbarberbattle-color.png",
+                "name": "IMAGES_CEDRICBARBERBATTLE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/cedricbarberbattle-color-square.png",
+                "name": "IMAGES_CEDRICBARBERBATTLE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/cedricbarberbattle.png",
+                "name": "IMAGES_CEDRICBARBERBATTLE_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/tvshowtime-color.png",
+                "name": "IMAGES_TVSHOWTIME_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/tvshowtime-color-square.png",
+                "name": "IMAGES_TVSHOWTIME_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/tvshowtime.png",
+                "name": "IMAGES_TVSHOWTIME_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/castle-color.png",
+                "name": "IMAGES_CASTLE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/castle-color-square.png",
+                "name": "IMAGES_CASTLE_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/castle.png",
+                "name": "IMAGES_CASTLE_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/breakingbad-color.png",
+                "name": "IMAGES_BREAKINGBAD_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/breakingbad-color-square.png",
+                "name": "IMAGES_BREAKINGBAD_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/breakingbad.png",
+                "name": "IMAGES_BREAKINGBAD_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/blacklist-color.png",
+                "name": "IMAGES_BLACKLIST_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/blacklist-color-square.png",
+                "name": "IMAGES_BLACKLIST_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/blacklist.png",
+                "name": "IMAGES_BLACKLIST_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/bigbangtheory-color.png",
+                "name": "IMAGES_BIGBANGTHEORY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/bigbangtheory-color-square.png",
+                "name": "IMAGES_BIGBANGTHEORY_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/bigbangtheory.png",
+                "name": "IMAGES_BIGBANGTHEORY_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/reign.png",
+                "name": "IMAGES_REIGN_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/reign-color.png",
+                "name": "IMAGES_REIGN_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/reign-color-square.png",
+                "name": "IMAGES_REIGN_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/myshows-color.png",
+                "name": "IMAGES_MYSHOWS_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/myshows-color-square.png",
+                "name": "IMAGES_MYSHOWS_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/myshows.png",
+                "name": "IMAGES_MYSHOWS_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/calendar-color.png",
+                "name": "IMAGES_CALENDAR_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/calendar-color-square.png",
+                "name": "IMAGES_CALENDAR_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/calendar.png",
+                "name": "IMAGES_CALENDAR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/towatch.png",
+                "name": "IMAGES_TOWATCH_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/towatch-color.png",
+                "name": "IMAGES_TOWATCH_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "basalt"
+                ]
+            },
+            {
+                "file": "images/towatch-color-square.png",
+                "name": "IMAGES_TOWATCH_COLOR_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "chalk"
+                ]
+            },
+            {
+                "file": "images/settings.png",
+                "name": "IMAGES_SETTINGS_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/wow.png",
+                "name": "IMAGES_WOW_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/soso.png",
+                "name": "IMAGES_SOSO_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/sad.png",
+                "name": "IMAGES_SAD_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/good.png",
+                "name": "IMAGES_GOOD_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/fun.png",
+                "name": "IMAGES_FUN_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/bad.png",
+                "name": "IMAGES_BAD_PNG",
+                "type": "png",
+                "targetPlatforms": [
+                    "aplite"
+                ]
+            },
+            {
+                "file": "images/tinyBW.png",
+                "menuIcon": true,
+                "name": "IMAGES_TINYBW_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "TvShowTime",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "42ef05ae-6841-4a7f-a039-233d29c522eb",
+    "versionCode": 1,
+    "versionLabel": "1.5",
+    "watchapp": {
+        "watchface": false
+    }
+}
