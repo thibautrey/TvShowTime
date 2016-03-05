@@ -1,6 +1,6 @@
-# Directions
-Directions app for Pebble available there https://apps.getpebble.com/en_US/application/54c79e1a73f0aa3dbc00000f
+# TvShow Time
+TvShow Time app for Pebble available there https://apps.getpebble.com/en_US/application/54e613072bca7fb77800008e
 
-This app gives you the Google Maps Directions right from your wrist on your Pebble Watch. 
+This app lets you track your favourite Tv Shows on your Pebble Watch. It uses the API of the website tvshowtime.com 
 
-![Directions on the Pebble store](https://raw.githubusercontent.com/thibautrey/tvshowtime/master/Screen.Shot.2016-03-04.at.22.06.19.png)
+![TvShow Time on the Pebble store](https://raw.githubusercontent.com/thibautrey/tvshowtime/master/Screen.Shot.2016-03-04.at.22.06.19.png)
